@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /
+  port: 8080
+es:
+  host: 192.168.2.2
+  port: 9200
+  scheme: http
+  connectTimeout: 1000
+  socketTimeout: 30000
+  connectionRequestTimeout: 500
+  maxConnTotal: 30
+  maxConnPerRoute: 10
+spring:
+  thymeleaf:
+    cache: false

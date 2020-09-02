@@ -1,0 +1,7 @@
+# Project exclude paths
+/common/target/
+/es-search/target/
+/jpa-db/target/
+/shiro-remember/target/
+/start/target/
+/web/target/
